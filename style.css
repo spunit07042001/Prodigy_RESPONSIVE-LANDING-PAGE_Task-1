@@ -1,0 +1,55 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    padding: 15px 0;
+    transition: background-color 0.3s, color 0.3s;
+    z-index: 1000;
+  }
+  
+  .nav-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  .nav-item {
+    margin: 0 20px;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  /* Hover Effect */
+  .nav-item a:hover {
+    color: #ff7f50; /* Coral color on hover */
+  }
+  
+  /* Section Styling */
+  section {
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+  }
+  
+  #home { background: #cad2d9; }
+  #about { background: #faebd7; }
+  #services { background: #ffe4c4; }
+  #contact { background: #f5f5dc; }
+  
